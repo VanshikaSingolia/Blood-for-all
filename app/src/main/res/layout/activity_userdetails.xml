@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".UserHomePage">
+
+
+    <TextView
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/gery_input"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="Hey valuable donor!              Select your present status."
+        android:textColor="#000000"
+        android:textSize="25dp"
+        app:fontFamily="@font/allan" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="96dp"
+        android:background="@drawable/login2_button"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp">
+
+        <RadioGroup
+            android:id="@+id/r4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/o1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="checkButton1"
+                android:text="Fit to donate."
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/o2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="checkButton1"
+                android:text="Under medications."
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/o3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="checkButton1"
+                android:text="Eligible in a month."
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/o4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="checkButton1"
+                android:text="Eligible in 3 months."
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/o5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="checkButton1"
+                android:text="Eligible in 6 months."
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/comp"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="353dp"
+        android:background="@drawable/callbutton"
+        android:padding="10dp"
+        android:text="CHECK COMPATIBLITY"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/forgot_password"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="289dp"
+        android:background="@drawable/gery_input"
+        android:padding="10dp"
+        android:text="RESET PASSWORD"
+        android:textSize="20dp" />
+
+
+    <ImageView
+        android:id="@+id/alarm"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="288dp"
+        android:layout_marginRight="288dp"
+        android:layout_marginBottom="206dp"
+        android:src="@drawable/ic_alarm_add_black_24dp"
+        android:tint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/reminder"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginBottom="207dp"
+        android:background="@drawable/login_button"
+        android:padding="10dp"
+        android:text="REMINDER"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+
+    <ImageView
+        android:id="@+id/alar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="291dp"
+        android:layout_marginRight="291dp"
+        android:layout_marginBottom="148dp"
+        android:src="@drawable/signout"
+        android:tint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/signout"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="163dp"
+        android:layout_marginLeft="163dp"
+        android:layout_marginBottom="140dp"
+        android:background="@drawable/login2_button"
+        android:padding="10dp"
+        android:text="SIGN OUT"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/ala"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="292dp"
+        android:layout_marginRight="292dp"
+        android:layout_marginBottom="81dp"
+        android:src="@drawable/ic_help_black_24dp"
+        android:tint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/help"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="163dp"
+        android:layout_marginLeft="163dp"
+        android:layout_marginBottom="75dp"
+        android:background="@drawable/invite"
+        android:padding="10dp"
+        android:text="HELP"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/design_default_color_on_secondary"
+        app:itemIconTint="@color/design_default_color_background"
+        app:itemTextColor="#FFFFFF"
+        app:menu="@menu/menu_navigation"></com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+</RelativeLayout>

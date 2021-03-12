@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/help"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".Request">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Need Help?"
+        android:textColor="#FFFF"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="50dp"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="129dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/PHONE1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/ic_call_black_24dp"
+            android:tint="#FFFFFF" />
+
+        <ImageView
+            android:id="@+id/MSG1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/ic_message_black_24dp"
+            android:tint="#FFFFFF" />
+
+        <ImageView
+            android:id="@+id/EMAIL1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/ic_email_black_24dp"
+            android:tint="#FFFFFF" />
+
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:padding="20dp"
+        android:text='This app is designed to help the common man during urgent need of blood units.One person in an emergency can easily find out the people in his area having the similar blood group and can contact them using their registered contact information.The main aim is to minimize the number of deaths taking place in the country due to the shortage of blood when required.The blood bank data will also be reflected in the app to avoid artificial scarcity.'
+        android:textColor="#FFFFFF"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/login2_button"
+        android:textSize="18sp" />
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/design_default_color_on_secondary"
+        app:itemIconTint="@color/design_default_color_on_primary"
+        app:itemTextColor="#FFFFFF"
+        app:menu="@menu/bankmenu"></com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</RelativeLayout>

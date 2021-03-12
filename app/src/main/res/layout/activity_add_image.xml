@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/addimg"
+    android:orientation="vertical"
+    tools:context=".AddImage">
+
+
+    <TextView
+        android:id="@+id/textView981"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Click to select Photograph:"
+        android:textColor="#121010"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/cimage"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="46dp"
+        android:src="@drawable/profile"
+        app:civ_border_color="#FFFFFF"
+        app:civ_border_width="5dp"
+        />
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:id="@+id/imagename"
+        android:layout_gravity="center_horizontal"
+        android:hint="Image Name"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:background="#000000"
+        android:drawablePadding="10dp"
+        android:padding="15dp"
+        android:text="UPLOAD"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+
+        android:textSize="16sp" />
+</LinearLayout>
