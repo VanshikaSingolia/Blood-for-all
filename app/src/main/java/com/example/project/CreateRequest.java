@@ -37,7 +37,7 @@ public class CreateRequest extends AppCompatActivity  {
     EditText p_name,p_contact,p_email,_purpose,date1,p_area;
     final Calendar myCalendar = Calendar.getInstance();
     Button create;
-    private String create_url="http://192.168.43.8/createrequest.php";
+    private String create_url="http://192.168.43.231/createrequest.php";
     String dname,demail,dphone,TAG="0";
     Spinner spinner;
     String result;

@@ -29,7 +29,7 @@ public class BackgroundworkerS extends AsyncTask<String,Void,String>
     @Override
     protected String doInBackground(String... params) {
         String type=params[0],TAGG="99";
-        String status_url="http://192.168.43.8/status.php";
+        String status_url="http://192.168.43.231/status.php";
         if(type.equals("status"))
         {
             try {

@@ -30,9 +30,9 @@ BackgroundWorker(Context ctx)
     @Override
     protected String doInBackground(String... params) {
         String type=params[0];
-        String login_url="http://192.168.43.8/login.php";
-        String register_url="http://192.168.43.8/register.php";
-        String editprofile_url="http://192.168.43.8/editprofile.php";
+        String login_url="http://192.168.43.231/login.php";
+        String register_url="http://192.168.43.231/register.php";
+        String editprofile_url="http://192.168.43.231/editprofile.php";
 
         if(type.equals("login"))
         {

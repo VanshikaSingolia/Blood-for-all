@@ -29,7 +29,7 @@ public class BackgroundWorkerr extends AsyncTask<String,Void,String>
     @Override
     protected String doInBackground(String... params) {
         String type=params[0],TAG="1";
-        String login_url="http://192.168.43.8/login2.php";
+        String login_url="http://192.168.43.231/login2.php";
         if(type.equals("loginn"))
         {
             Log.e(TAG,"type obtained"+type);

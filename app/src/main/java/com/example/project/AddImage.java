@@ -35,7 +35,7 @@ import de.hdodenhof.circleimageview.CircleImageView;
 
 public class AddImage extends AppCompatActivity {
     Uri path;
-    private String upload_url="http://192.168.43.8/image.php";
+    private String upload_url="http://192.168.43.231/image.php";
     private EditText imagename;
     private Button upload;
     private Bitmap bitmap;

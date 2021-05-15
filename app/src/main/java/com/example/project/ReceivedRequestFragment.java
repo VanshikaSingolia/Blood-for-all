@@ -32,7 +32,7 @@ public class ReceivedRequestFragment extends Fragment {
 
     View view;
     String rename;
-    String received="http://192.168.43.8/recrequest.php";
+    String received="http://192.168.43.231/recrequest.php";
 
     public ReceivedRequestFragment() {
 

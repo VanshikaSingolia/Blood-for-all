@@ -29,7 +29,7 @@ import java.util.List;
 import java.util.Map;
 
 public class Search extends AppCompatActivity implements SearchView.OnQueryTextListener {
-    String address = "http://192.168.43.8/data.php";
+    String address = "http://192.168.43.231/data.php";
     String Dname;
     ProgrammingAdapterDonor adapter;
     List<Donor> donorList;

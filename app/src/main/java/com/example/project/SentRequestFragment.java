@@ -30,7 +30,7 @@ import java.util.Map;
 
 public class SentRequestFragment extends Fragment {
 
-    String sent="http://192.168.43.8/sentrequest.php";
+    String sent="http://192.168.43.231/sentrequest.php";
     private View mview;
 
 

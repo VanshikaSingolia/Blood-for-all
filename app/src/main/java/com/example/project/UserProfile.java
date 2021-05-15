@@ -41,7 +41,7 @@ RequestQueue rq;
 SharedPreferences sharedPreferences,sharedPreferences1,sharedPreferences2,sharedPreferences3;
 TextView ps,pb,pa,pn,pc;
 String status,blood,contact,age,imagename,name,area,value;
-String profile_details_url="http://192.168.43.8/userprofile.php";
+String profile_details_url="http://192.168.43.231/userprofile.php";
 
 
     @Override
